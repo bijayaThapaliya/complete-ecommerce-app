@@ -14,6 +14,8 @@ namespace ticketbookingapp.Models
 		public string FullName { get; set; }
 
 		public string Bio { get; set; }
+
+		public List<Actor_MovieModel> Actor_Movies { get; set; }
 	}
 }
 

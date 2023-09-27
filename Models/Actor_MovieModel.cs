@@ -1,11 +1,13 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
 namespace ticketbookingapp.Models
 {
 	public class Actor_MovieModel
 	{
-		public int MoviesId { get; set; }
+		public int MovieId { get; set; }
 
-		public MovieModel MovieModel { get; set; }
+		[ForeignKey("MovieId")]
+		public MovieModel Movie { get; set; }
 
 		public int ActorId { get; set; }
 
