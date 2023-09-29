@@ -10,13 +10,15 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ticketbookingapp
 build_property.RootNamespace = ticketbookingapp
 build_property.ProjectDir = /Users/bijayathapaliya/Projects/ticketbookingapp/
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = /Users/bijayathapaliya/Projects/ticketbookingapp
 build_property._RazorSourceGeneratorDebug = 
+
+[/Users/bijayathapaliya/Projects/ticketbookingapp/Views/ActorModel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0b3JNb2RlbC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/bijayathapaliya/Projects/ticketbookingapp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
