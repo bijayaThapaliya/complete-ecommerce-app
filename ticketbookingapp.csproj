@@ -10,11 +10,17 @@
     <None Remove="Data\" />
     <None Remove="Data\enum\" />
     <None Remove="Views\ActorModel\" />
+    <None Remove="Views\ProducerModel\" />
+    <None Remove="Views\CinemaModel\" />
+    <None Remove="Views\MovieModel\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Data\enum\" />
     <Folder Include="Views\ActorModel\" />
+    <Folder Include="Views\ProducerModel\" />
+    <Folder Include="Views\CinemaModel\" />
+    <Folder Include="Views\MovieModel\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />
@@ -31,5 +37,6 @@
     <PackageReference Include="MySqlConnector" Version="2.2.7" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+    <PackageReference Include="DotVVM.HotReload.AspNetCore" Version="4.1.7" />
   </ItemGroup>
 </Project>

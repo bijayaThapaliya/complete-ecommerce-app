@@ -7,7 +7,9 @@ namespace ticketbookingapp.Data
 		Comedy,
 		Drama,
 		Romantic,
-		Documentary
-	}
+		Documentary,
+        Horror,
+        Cartoon
+    }
 }
 

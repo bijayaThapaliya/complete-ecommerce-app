@@ -20,12 +20,24 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWN0b3JNb2RlbC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/bijayathapaliya/Projects/ticketbookingapp/Views/CinemaModel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2luZW1hTW9kZWwvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/bijayathapaliya/Projects/ticketbookingapp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/bijayathapaliya/Projects/ticketbookingapp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/bijayathapaliya/Projects/ticketbookingapp/Views/MovieModel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWVNb2RlbC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/bijayathapaliya/Projects/ticketbookingapp/Views/ProducerModel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjZXJNb2RlbC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/bijayathapaliya/Projects/ticketbookingapp/Views/Shared/Error.cshtml]

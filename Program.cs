@@ -2,8 +2,6 @@
 using Microsoft.EntityFrameworkCore;
 using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 
-
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -13,14 +11,15 @@ builder.Services.AddControllersWithViews();
 //Register DbContext
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 //builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer
-    //(builder.Configuration.GetConnectionString("AppConString")));
-
+//(builder.Configuration.GetConnectionString("AppConString")));
+builder.Services.AddTransient<AppDbInit>();
 builder.Services.AddDbContextPool<AppDbContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
-//builder.Services.AddTransient<MySqlConnection>
-
+//builder.Services.AddTransient<MySqlConne
 var app = builder.Build();
+
+AppDbInit.Seed(app);
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

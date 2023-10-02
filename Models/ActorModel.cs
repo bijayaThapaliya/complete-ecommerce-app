@@ -8,12 +8,12 @@ namespace ticketbookingapp.Models
 	{
 		[Key]
 		public int ActorId { get; set; }
-
+		[Display(Name = "Profile Picture URL")]
 		public string ProfilePictureURl { get; set; }
-
-		public string FullName { get; set; }
-
-		public string Bio { get; set; }
+        [Display(Name = "Full Name")]
+        public string FullName { get; set; }
+        [Display(Name = "Biography")]
+        public string Bio { get; set; }
 
 		public List<Actor_MovieModel> Actor_Movies { get; set; }
 	}
